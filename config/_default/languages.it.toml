@@ -1,0 +1,28 @@
+languageCode = "it"
+languageName = "Italiano"
+weight = 2
+title = "Ashish"
+
+[params]
+  displayName = "Italiano"
+  isoCode = "it"
+  rtl = false
+  dateFormat = "2 gennaio 2006"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "Un potente, leggero tema per Hugo."
+
+[author]
+  name = "Ashish Nath"
+  image = "img/blowfish_logo.png"
+  headline = "Sviluppatore ReactJs / NextJs"
+  bio = "Sviluppatore Web"
+  links = [
+    { email = "mailto:ashishn401@gmail.com" },
+    { discord = "https://discord.gg/invitecode" },
+    { github = "https://github.com/username" },
+    { instagram = "https://instagram.com/username" },
+    { linkedin = "hhttps://www.linkedin.com/in/nathashish/" },
+    { telegram = "https://t.me/username" },
+  #  { twitter = "https://twitter.com/username" },
+    { x-twitter = "https://x.com/AshishNath401" },
+  ]

@@ -1,0 +1,88 @@
+# -- Main Menu --
+# メインメニューはページの上部に表示されます。
+# 受け入れ可能なパラメータは、name、pageRef、page、url、title、weightです。
+# 
+# 最もシンプルなメニューの設定は以下の通りです：
+#   name = このメニューリンクの表示名
+#   pageRef = ページまたはセクションへの識別子
+#
+# デフォルトでは、メニューはアルファベット順に並べられます。これは、
+# 重量値を提供することで上書きできます。メニューはその重量から最低到最高まで並べられます。
+
+[[main]]
+  name = "あつまれ"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "ブログ"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "プロジェクト"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "履歴書"
+  pageRef = "resume"
+  weight = 40
+
+#[[main]]
+ # identifier="music"
+  #pre = "music"
+ # name = "音楽"
+ # pageRef = "music"
+ # weight = 50
+
+#[[main]]
+ # name = "マーチャンダイズ"
+ # url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
+ # weight = 100
+
+#[[main]]
+#  name = "テスト"
+#  pageRef = "testPage"
+#  weight = 1000
+
+[[main]]
+  identifier = "twitter"
+  pre = "x-twitter"
+  url = "https://x.com/house"
+  weight = 200
+
+#[[main]]
+#  identifier = "mastodon"
+#  pre = "mastodon"
+#  url = "https://masto.ai/@blowfish"
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/ashish-nath"
+  weight = 400
+
+
+# -- Footer Menu --
+# フッターメニューはページの下部に表示され、著作権通知の直前に配置されます。上記のメインメニューと同様に設定します。
+
+ [[footer]]
+   name = "タグ"
+   pageRef = "tags"
+   weight = 10
+
+ [[footer]]
+   name = "カテゴリー"
+   pageRef = "categories"
+   weight = 20
+
+# [[footer]]
+#   name = "著者"
+#   pageRef = "authors"
+#   weight = 30
+
+#[[footer]]
+#  name = "提案"
+#  pageRef = "suggestions"
+#  weight = 30

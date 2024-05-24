@@ -1,0 +1,28 @@
+languageCode = "zh"
+languageName = "中文"
+weight = 1
+title = "阿什"
+
+[params]
+  displayName = "英文"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2月 6日 2006年"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "这是一个强大的轻量级Hugo主题。"
+
+[author]
+  name = "阿什·纳斯"
+  image = "img/blowfish_logo.png"
+  headline = "ReactJs / NextJs开发者"
+  bio = "网络开发者"
+  links = [
+    { email = "mailto:ashishn401@gmail.com" },
+    { discord = "https://discord.gg/invitecode" },
+    { github = "https://github.com/username" },
+    { instagram = "https://instagram.com/username" },
+    { linkedin = "https://www.linkedin.com/in/nathashish/" },
+    { telegram = "https://t.me/username" },
+   # { twitter = "https://twitter.com/username" },
+    { x-twitter = "https://x.com/AshishNath401" },
+  ]

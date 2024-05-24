@@ -1,0 +1,89 @@
+# -- Main Menu --
+# Il menu principale viene visualizzato nell'intestazione in alto sulla pagina.
+# I parametri accettabili sono nome, pageRef, page, url, title, weight.
+# 
+# La configurazione del menu più semplice è fornire:
+#   nome = Il nome da visualizzare per questo collegamento di menu
+#   pageRef = L'identificatore della pagina o sezione a cui collegarsi
+#
+# Di default il menu è ordinato alfabeticamente. Questo può be sovrascritto
+# fornendo un valore di peso. Il menu sarà quindi ordinato dal peso più basso al più alto.
+
+[[main]]
+  name = "A proposito"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "Progetti"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "CV"
+  pageRef = "resume"
+  weight = 40
+
+#[[main]]
+ # identifier="musica"
+  #pre = "musica"
+ # name = "Musica"
+ # pageRef = "music"
+ # weight = 50
+
+#[[main]]
+ # name = "Merchandise"
+ # url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
+ # weight = 100
+
+#[[main]]
+#  name = "Test"
+#  pageRef = "testPagina"
+#  weight = 1000
+
+[[main]]
+  identifier = "twitter"
+  pre = "x-twitter"
+  url = "https://x.com/casa"
+  weight = 200
+
+#[[main]]
+#  identifier = "mastodon"
+#  pre = "mastodon"
+#  url = "https://masto.ai/@blowfish"
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/ashish-nath"
+  weight = 400
+
+
+# -- Footer Menu --
+# Il menu del piè di pagina viene visualizzato nella parte inferiore della pagina,
+# subito prima dell'avviso sui diritti d'autore. Configura come sopra per il menu principale.
+
+ [[footer]]
+   name = "Tag"
+   pageRef = "tags"
+   weight = 10
+
+ [[footer]]
+   name = "Categorie"
+   pageRef = "categories"
+   weight = 20
+
+# [[footer]]
+#   name = "Autori"
+#   pageRef = "authors"
+#   weight = 30
+
+#[[footer]]
+#  name = "Suggerimenti"
+#  pageRef = "suggestions"
+#  weight = 30

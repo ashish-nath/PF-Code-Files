@@ -1,0 +1,87 @@
+# -- قائمة الرئيسية --
+# سيتم عرض قائمة الصفحة في الجزء العلوي من الصفحة.
+# يتم قبول المعلمات التالية: name، pageRef، page، url، title، weight.
+# 
+# الإعداد الأسهل للقائمة هو تقديم:
+#   name = اسم العرض للمنشور المرتبط بالرابط
+#   pageRef = معرف الصفحة أو القسم
+#
+# بشكل افتراضي، يتم ترتيب القائمة حسب الترتيب الحرفي. يمكن تغيير هذا عن طريق تقديم قيمة وزن. سيتم ترتيب القائمة بناءً على الارتفاع من أقل إلى أعلى.
+
+[[main]]
+  name = "حولنا"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "مدونة"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "مشاريع"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "السيرة الذاتية"
+  pageRef = "resume"
+  weight = 40
+
+#[[main]]
+ # identifier="موسيقى"
+  #pre = "موسيقى"
+ # name = "موسيقى"
+ # pageRef = "music"
+ # weight = 50
+
+#[[main]]
+ # name = "منتجات"
+ # url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
+ # weight = 100
+
+#[[main]]
+#  name = "اختبار"
+#  pageRef = "testPage"
+#  weight = 1000
+
+[[main]]
+  identifier = "twitter"
+  pre = "x-twitter"
+  url = "https://x.com/house"
+  weight = 200
+
+#[[main]]
+#  identifier = "mastodon"
+#  pre = "mastodon"
+#  url = "https://masto.ai/@blowfish"
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/ashish-nath"
+  weight = 400
+
+
+# -- قائمة الخلفية --
+# ستظهر قائمة الخلفية في الجزء السفلي من الصفحة، مباشرة قبل إعلان حقوق الطبع والنشر. يتم تكوينها بنفس طريقة قائمة الرئيسية.
+
+ [[footer]]
+   name = "تسميات"
+   pageRef = "tags"
+   weight = 10
+
+ [[footer]]
+   name = "فئات"
+   pageRef = "categories"
+   weight = 20
+
+# [[footer]]
+#   name = "كتاب"
+#   pageRef = "authors"
+#   weight = 30
+
+#[[footer]]
+#  name = "اقتراحات"
+#  pageRef = "suggestions"
+#  weight = 30

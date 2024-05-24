@@ -1,0 +1,28 @@
+languageCode = "ar"
+languageName = "العربية"
+weight = 1
+title = "أشيش"
+
+[params]
+  displayName = "إنجليزي"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "6 فبراير 2006"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "هو موضوع قوي وخفيف لـ Hugo."
+
+[author]
+  name = "أشيش ناس"
+  image = "img/blowfish_logo.png"
+  headline = "مطور ReactJs / NextJs"
+  bio = "مطور ويب"
+  links = [
+    { email = "mailto:ashishn401@gmail.com" },
+    { discord = "https://discord.gg/invitecode" },
+    { github = "https://github.com/username" },
+    { instagram = "https://instagram.com/username" },
+    { linkedin = "https://www.linkedin.com/in/nathashish/" },
+    { telegram = "https://t.me/username" },
+  #  { twitter = "https://twitter.com/username" },
+    { x-twitter = "https://x.com/AshishNath401" },
+  ]

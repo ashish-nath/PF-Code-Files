@@ -1,0 +1,28 @@
+languageCode = "ja"
+languageName = "日本語"
+weight = 1
+title = "アシッシュ"
+
+[params]
+  displayName = "英語"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2月 6日 2006年"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "Hugo用の強力で軽量なテーマです。"
+
+[author]
+  name = "アシッシュ・ナス"
+  image = "img/blowfish_logo.png"
+  headline = "ReactJs / NextJs開発者"
+  bio = "ウェブ開発者"
+  links = [
+    { email = "mailto:ashishn401@gmail.com" },
+    { discord = "https://discord.gg/invitecode" },
+    { github = "https://github.com/username" },
+    { instagram = "https://instagram.com/username" },
+    { linkedin = "https://www.linkedin.com/in/nathashish/" },
+    { telegram = "https://t.me/username" },
+  #  { twitter = "https://twitter.com/username" },
+    { x-twitter = "https://x.com/AshishNath401" },
+  ]
